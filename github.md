@@ -23,5 +23,18 @@ the --amend option
 
 13) 
 ## Rebase
+git reset --hard HEAD@{2}
+git reflog
+
+git rebase -i HEAD~3 // The exact number doesn't matter, I just change "pick" to "edit" next to A
+git reset HEAD^ // unstage all changes
+git add F2
+git commit -m "Add F2"
+git add F1
+git commit -m "Add F1"
+git rebase --continue
 
 1) git rebase -i HEAD~x
+https://stackoverflow.com/questions/58795826/remove-changes-to-file-in-old-already-pushed-git-commit
+
+https://stackoverflow.com/questions/134882/undoing-a-git-rebase

@@ -20,8 +20,15 @@
              IO.inspect({nil, pid, links, group_leader})
          end
        end)
+        # Task.async(fn ->
+      #   Enum.each(Process.list(), fn pid ->
+      #     pid == me || allow(MockClient, me, pid)
+      #   end)
+      # end)
     ```
 
 
 ## Tests
 1) By default test are asunc 
+2) mix test --slowest N https://brooklinmyers.medium.com/elixir-phoenix-how-you-can-cut-test-time-by-80-with-development-specific-test-suites-f8ebdd5d0109
+3) mix test --seed 119489 Find and Replicate Flaky Tests in Elixir https://blog.appsignal.com/2021/12/21/eight-common-causes-of-flaky-tests-in-elixir.html

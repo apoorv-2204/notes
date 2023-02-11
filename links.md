@@ -15,3 +15,5 @@
 
 v   iew returns (...)
 those functions are used to get the state (the value saved inside a variable in the contract). you cant change anything inside the contract and you cant emit events. those functions return the raw value to you so you will get true or false back.
+
+https://www.khanacademy.org/college-careers-more/learnstorm-growth-mindset-activities-us/high-school-activities/activity-1-the-truth-about-your-brain-hs-02/a/the-truth-about-your-brain-part-1-3?modal=1
