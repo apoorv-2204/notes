@@ -2,7 +2,7 @@
 
 #### recurrent commands
 
-1)gensed
+1)genesisi addres
 
     ``` bash  
             node aeweb-cli/aeweb.js generate-address -s qwe -i 0

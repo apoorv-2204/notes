@@ -10,9 +10,7 @@
 
 - <https://git-scm.com/downloads/guis>
 
-## elixir
 
-- <https://gitlab.com/yan.guiborat1/cache>
 
 - solidit
 <https://ethereum.stackexchange.com/questions/91520/how-to-read-the-return-object-of-call-to-function-in-a-contract>

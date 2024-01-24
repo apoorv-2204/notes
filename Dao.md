@@ -3,7 +3,7 @@
 ###
 
 - decentralised => Running On Blockchain
-- Autonomus => smart contracts
+- Autonomous => smart contracts
 - prganisation => group of people sharing same goal
 
 #### Traditional Organization Coporation
@@ -57,7 +57,7 @@ D1=> takes second to major decison
 
 ### Why we need DAo
 
-- to start an organization we need funding
+- to start an organisation we need funding
 - lot of trust in the people you are working with(on internet building a organization,we cant trust people)
 - DAO is an application, helps building company in blockchain
 - makes sense when huge community members are involved
@@ -75,7 +75,7 @@ D1=> takes second to major decison
 
 ### upgradable contract cant remove functionaly but can add new functionality self dsertuct contracts
 
-## Dao GOvernance
+## Dao Governance
 
 - mechanism of how voting and proposal work
 

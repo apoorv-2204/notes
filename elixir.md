@@ -32,3 +32,15 @@
 1) By default test are asunc 
 2) mix test --slowest N https://brooklinmyers.medium.com/elixir-phoenix-how-you-can-cut-test-time-by-80-with-development-specific-test-suites-f8ebdd5d0109
 3) mix test --seed 119489 Find and Replicate Flaky Tests in Elixir https://blog.appsignal.com/2021/12/21/eight-common-causes-of-flaky-tests-in-elixir.html
+
+
+### dynamic forms
+https://dashbit.co/blog/dynamic-forms-with-phoenix
+
+## res
+
+- <https://gitlab.com/yan.guiborat1/cache>
+  
+  
+  [[Phoenix]] 
+  
