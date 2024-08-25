@@ -11,8 +11,24 @@
             "id": "3772cbdc0f5622e5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6420b9d4f468cd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sui.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -21,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elixir.md",
+                "file": "React.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React.md",
+                "file": "ethereum-res.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd62457b80234c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Elixir ecto.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "defination",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React.md",
+                "file": "Sui.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React.md",
+                "file": "Sui.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React.md"
+                "file": "Sui.md"
               }
             }
           }
@@ -169,34 +196,34 @@
       "obsidian-kindle-plugin:Sync your Kindle highlights": false
     }
   },
-  "active": "989f94565409833e",
+  "active": "d6420b9d4f468cd1",
   "lastOpenFiles": [
-    "Elixir ecto.md",
-    "O'Brien-50 Greatest Short Stories.md",
-    "meurisse-Donovan-Master Your Emotions.md",
+    "ethereum-res.md",
     "React.md",
-    "general soft.md",
-    "elixir.md",
-    "go.md",
-    "links.md",
-    "git.md",
     "frontend.md",
-    "SQL Database.md",
-    "fn.md",
-    "FC.md",
+    "Pasted image 20240128191529.png",
+    "elixir.md",
+    "Sui.md",
+    "C++.md",
+    "Html.md",
+    "node.md",
     "Phoenix Troubleshooting.md",
-    "Phoenix.md",
-    "<a>.md",
+    "side effects.md",
+    "solidity.md",
+    "SQL Database.md",
     "aeweb-cli.md",
     "Untitled 1.md",
-    "side effects.md",
-    "2023-12-01.md",
+    "<a>.md",
     "Dao.md",
-    "node.md",
-    "ethereum-res.md",
-    "linux.md",
-    "provider.md",
-    "OpenAi-API.md",
+    "Elixir ecto.md",
+    "general soft.md",
+    "git.md",
+    "go.md",
+    "O'Brien-50 Greatest Short Stories.md",
+    "meurisse-Donovan-Master Your Emotions.md",
+    "links.md",
+    "fn.md",
+    "FC.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
