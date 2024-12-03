@@ -44,3 +44,70 @@ https://dashbit.co/blog/dynamic-forms-with-phoenix
   
   [[Phoenix]] 
   
+
+
+
+
+
+
+
+
+
+
+  # Notes on `Application.compile_env/4` and `compile_env!/3` in Elixir
+
+## Key Concepts
+
+- `Application.compile_env/4` is used to read configuration at **compile-time**.
+- It requires a `Macro.Env` (e.g., `__CALLER__`) as the first argument and is meant for use inside **macros**.
+- `Application.compile_env!/3` is a simpler version that does not need a `Macro.Env` and is suitable for static module-level configurations.
+
+---
+
+## What You Can't Do
+
+- You cannot use `compile_env/4` directly in a module or function without a macro.
+- **Example of incorrect usage**:
+    ```elixir
+    @chaser_after Application.compile_env!(:kc_core, [__MODULE__, :chaser_after])
+    ```
+
+---
+
+## Correct Usage
+
+### Using `Application.compile_env!/3` for Static Configurations
+- Use `Application.compile_env!/3` for setting module attributes or similar compile-time values.
+
+    ```elixir
+    @chaser_after Application.compile_env!(:kc_core, :chaser_after)
+    ```
+
+### Using `Application.compile_env/4` in Macros
+- Use `compile_env/4` when you need dynamic configuration during macro expansion.
+
+    **Example**:
+    ```elixir
+    defmacro my_macro do
+      quote do
+        @value Application.compile_env(__CALLER__, :my_app, :some_key, "default_value")
+      end
+    end
+    ```
+
+---
+
+## When to Use Each Function
+
+| Function                   | Usage                                     | Example                          |
+|----------------------------|-------------------------------------------|----------------------------------|
+| `compile_env!/3`           | Static configuration at compile-time.    | `@value Application.compile_env!(:my_app, :key)` |
+| `compile_env/4`            | Dynamic configuration inside macros.     | Use with `__CALLER__`.           |
+
+---
+
+## Summary
+
+- Use `Application.compile_env!/3` for straightforward configuration reads.
+- Use `Application.compile_env/4` **only inside macros** to handle dynamic scenarios.
+
